@@ -14,19 +14,22 @@
 
 /* ---------- PART 1: COLORS ----------
    Pick 2-3 colors that go together:
-     Background:  #______
-     Text:        #______
-     Headings:    #______
+     Background:  #faf4e3
+     Text:        #0d0900
+     Headings:    ##9e0ca6; #eb59f3;
 */
 
 body {
-  /* TODO: background-color */
-  /* TODO: color (the text color) */
+  background-color: #faf4e3;
+  color: #0d0900;
 }
 
 h1,
 h2 {
-  /* TODO: color */
+  color: #9e0ca6;
+}
+h3 {
+  color:#eb59f3;
 }
 
 
@@ -36,11 +39,11 @@ h2 {
 */
 
 h1 {
-  /* TODO: font-size */
+ font-size: 4rem;
 }
 
 h2 {
-  /* TODO: font-size */
+  font-size: 2rem;
 }
 
 
@@ -49,4 +52,9 @@ h2 {
    p { } styles EVERY <p> on the page at once.
 */
 
-/* TODO: write a p { } rule that sets font-size and line-height */
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #0d0900;
+}
